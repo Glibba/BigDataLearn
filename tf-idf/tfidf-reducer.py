@@ -3,8 +3,9 @@
 import sys
 
 for line in sys.stdin:
-    word, doc, tf = line.strip().split(' ')
-    for value in input:
-        
-    print(value, 1)
+    pair, count = line.strip().split('\t')
+    word, docname = line.strip().split('#')
+    old_value = result.get(key)
+    if old_value == None:
+            sum += print(value, 1)
 
